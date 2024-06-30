@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="search-input" placeholder="Enter City Name">
+            <button id="search-btn">
+                <span class="material-symbols-outlined">
+                    search
+                    </span>
+            </button>
+        </div>
+        <div class="details" style="display: none;">
+            <div class="main-details">
+                <img src="images/rain.png" id="main-img" alt="">
+                <h1 id="temperature">22 &#176; </h2>
+                <h1 id="city-name">Delhi</h2>
+    
+            </div>
+            <div class="sub-details">
+                <div class="humidity">
+                    <img src="images/humidity.png" alt="">
+                    <h2 id="humidity-percent">50%</h2>
+                    <h3 id="humidity-heading">Humidity</h3>
+                </div>
+                <div class="wind-speed">
+                    <img src="images/wind.png" alt="">
+                    <h2 id="wind-speed">20 km/h</h2>
+                    <h3 id="wind-heading">Wind Speed</h3>
+                </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
