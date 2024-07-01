@@ -77,4 +77,4 @@ async function fetchData() {
         document.querySelector('#weather-result').innerText = `Error: ${error.message}`;
     }
 }
-
+// add new feature -button.

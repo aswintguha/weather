@@ -8,7 +8,7 @@ This is a simple weather web application built using HTML, CSS, and JavaScript. 
 - Fetches weather data based on user's current location using Geolocation API.
 - Allows users to search for weather information by city name.
 - Responsive design for use on various devices.
-
+//
 ## Technologies Used
 - HTML: Structure of the web app.
 - CSS: Styling of the web app.
@@ -93,3 +93,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries or feedback, please contact 
 [guhaaswint@gmail.com]
 ---
+
+;)
